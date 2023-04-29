@@ -1,8 +1,3 @@
---[[
-    Message Translator
-    Made by Aim, updated by cli, Updated by rang#1234
-    Credits to Riptxde for the sending chathook
---]]
 pcall(function()
     if not game['Loaded'] then game['Loaded']:Wait() end; repeat wait(.06) until game:GetService('Players').LocalPlayer ~= nil
     local YourLang = "pt" -- Language code that the messages are going to be translated to
